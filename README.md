@@ -2,7 +2,7 @@
 
 This project was made using React JS.
 
-## Steps to run the Applications
+## Steps to run the Application
 
 #### 1. Clone the repository
 #### 2. Install node modules by typing "npm i" in the terminal
