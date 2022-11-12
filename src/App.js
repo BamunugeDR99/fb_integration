@@ -26,6 +26,12 @@ function App() {
     signInWithPopup(authentication, provider)
       .then((result) => {
         console.log(result);
+        const credential = FacebookAuthProvider.credentialFromResult(result)
+        const access_token = credential.accessToken;
+
+        console.log("===== ACCESS TOKEN =========")
+        console.log(access_token)
+
       })
       .catch((error) => {
         console.log(error.message);
